@@ -4,9 +4,6 @@ from sqlalchemy import create_engine
 
 ROOT = "./EmployeeSQL"
 CONN = os.getenv("CONN")
-
-print(CONN)
-
 engine = create_engine(CONN)
 
 for file in os.listdir(ROOT):
