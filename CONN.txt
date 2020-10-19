@@ -1,1 +1,0 @@
-"postgres://postgres:KiKNhAaC5btNsNf8@35.184.19.121:5432/SQL_Homework
