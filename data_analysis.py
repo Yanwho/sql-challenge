@@ -18,7 +18,7 @@ FROM employees JOIN salaries ON employees.emp_no = salaries.emp_no;
 
 # List first name, last name, and hire date for employees who were hired in 1986.
 SELECT first_name, last_name, hire_date
-FROM employees2
+FROM employees
 WHERE hire_date BETWEEN '01/01/1986' and '01/01/1987';
 # List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
 
