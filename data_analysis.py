@@ -37,6 +37,10 @@ FROM employees JOIN dept_emp ON dept_emp.emp_no
 
 
 # 5 List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+SELECT employsees.first_name, employees.last_name, employees.sex
+FROM employees;
+
+
 
 # 6 List all employees in the Sales department, including their employee number, last name, first name, and department name.
 
