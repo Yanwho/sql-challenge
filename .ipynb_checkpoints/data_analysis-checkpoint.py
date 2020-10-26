@@ -1,14 +1,4 @@
 
-CONN = "postgres://postgres:KiKNhAaC5btNsNf8@35.184.19.121:5432/SQL_Homework"
-print("Database opened succesfully")
-
-cur = CONN.cursor()
-cur.execute('''SELECT employees.emp_no, employees.last_name, employees.first_name, employees.sex, salaries.salary;''')
-
-SELECT (emp_no, last_name, first_name, sex);
-FROM employees
-# FROM employees JOIN salaries ON employees.emp_no = salaries.emp_no;
-
 # Data Analysis
 # Once you have a complete database, do the following:
 
